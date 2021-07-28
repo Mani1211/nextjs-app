@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     phoneNumber: "",
   });
 
-  const [isFormOpen, setIsFormOpen] = useState(true);
+  const [isFormOpen, setIsFormOpen] = useState(false);
   const [step, setStep] = useState(0);
   const [otp, setOtp] = useState("");
   const [sessionId, setSessionId] = useState("");
