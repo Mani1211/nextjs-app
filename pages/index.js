@@ -28,10 +28,10 @@ export default function Home() {
     <div className="container">
       <h1>website is now connected with mongodb</h1>
       <button onClick={fetchUser}>Click</button>
-      {/* <LoadScript googleMapsApiKey="AIzaSyDxGY1pIqqUse-vZ36nPkQhRvWfSJOA7_g">
+      <LoadScript googleMapsApiKey="AIzaSyDhPVzx-ncXv85KKaGMCGPDOk4RvO63FzU">
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
           <></>
-          <DistanceMatrixService
+          {/* <DistanceMatrixService
             options={{
               destinations: [{ lat: 1.296788, lng: 103.778961 }],
               origins: [{ lng: 72.89216, lat: 19.12092 }],
@@ -40,9 +40,9 @@ export default function Home() {
             callback={(res) => {
               console.log("RESPONSE", res);
             }}
-          />
+          /> */}
         </GoogleMap>
-      </LoadScript> */}
+      </LoadScript>
     </div>
   );
 }
