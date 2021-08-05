@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "next/link";
+import Link from "next/link";
 // import { Facebook } from "react-spinners-css";
 import parse from "html-react-parser";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -17,17 +17,6 @@ const Blog = (props) => {
 
   const { blogs } = props;
 
-  //   console.log(`blogs`, props);
-
-  //   const getBlogs = async () => {
-  //     setBlogLoaded(true);
-  //     const blogResponse = await axios.get(
-  //       `https://touron-backend.herokuapp.com/blog/search?page=1&pageSize=150`
-  //     );
-  //     setBlogs(blogResponse.data);
-  //     setBlogLoaded(false);
-  //   };
-
   //   const getCountries = async () => {
   //     try {
   //       const countryResponse = await axios.get(`${API}/country`);
@@ -37,9 +26,6 @@ const Blog = (props) => {
   //     }
   //   };
 
-  //   useEffect(() => {
-  //     getBlogs();
-  //   }, []);
   //   useEffect(() => {
   //     getCountries();
   //   }, []);
@@ -140,6 +126,9 @@ const Blog = (props) => {
                             >
                               <button>Read More</button>
                             </Link> */}
+                          <Link href={`/blogs/${b._id}`}>
+                            <a>Read More</a>
+                          </Link>
                         </div>
                       </div>
                     );
