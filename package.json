@@ -3,20 +3,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.2.0",
     "axios": "^0.21.1",
+    "chart.js": "^3.5.0",
+    "html-react-parser": "^1.1.1",
+    "moment": "^2.29.1",
     "mongodb": "^3.5.9",
     "mongoose": "^5.13.3",
     "next": "latest",
     "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.4",
     "react-dom": "^17.0.2",
-    "html-react-parser": "^1.1.1",
-    "moment": "^2.29.1",
-    "react-spinners-css": "^1.2.2",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-spinners-css": "^1.2.2"
   },
   "license": "MIT"
 }

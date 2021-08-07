@@ -1,0 +1,109 @@
+.dashboard {
+  padding: 20px;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.dashboardcont {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.dbreq,
+.dbcustomers,
+.dbadmin {
+  display: flex;
+  width: 30%;
+  background-color: #fff;
+  /* height: 90px; */
+}
+.dbreqcont,
+.dbcustomerscont,
+.dbadmcont {
+  padding: 20px;
+}
+.reqq {
+  width: 90px;
+  /* height: 90px; */
+  background-color: #e83a59;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custm {
+  width: 90px;
+  /* height: 90px; */
+  background-color: #12b0e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adm {
+  width: 90px;
+  /* height: 90px; */
+  background-color: #e07c24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reqicon,
+.custicon,
+.admicon {
+  font-size: 30px;
+  color: #fff;
+}
+.flexad {
+  display: flex;
+  padding-top: 20px;
+}
+.chart {
+  flex-basis: 60%;
+}
+.cct {
+  flex-basis: 40%;
+  padding-left: 75px;
+  margin-top: 15px;
+}
+.countryreq,
+.cityreq,
+.tourreq {
+  display: flex;
+  background-color: #fff;
+  width: 90%;
+  /* height: 90px; */
+  margin-bottom: 10px;
+}
+.creqq {
+  width: 90px;
+  height: 90px;
+  background-color: #4dd637;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cireqq {
+  width: 90px;
+  height: 90px;
+  background-color: #6a1b4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.treqq {
+  width: 90px;
+  height: 90px;
+  background-color: #f7cd2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.creqicon,
+.cireqicon,
+.treqicon {
+  font-size: 35px;
+  color: #fff;
+}
+.creqcont,
+.cireqcont,
+.treqcont {
+  padding: 20px;
+}
